@@ -1,0 +1,35 @@
+.add-movie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-image: url(../components/images/960px-Marijuana.jpg);
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    // background-position: center;
+
+    .add-movie-title {
+        color:rgb(255, 225, 188);
+    }
+
+    .add-movie-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+
+
+        .add-movie-form-input {
+            width: 250px;
+            height: 25px;
+        }
+
+        .add-movie-form-textarea {
+            width: 250px;
+            height: 90px;
+        }
+
+    }
+}

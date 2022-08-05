@@ -1,0 +1,21 @@
+@media (max-width: 615px) {
+    // .app {
+
+    // }
+    .navbar {
+        flex-direction: row;
+        height: 100%;
+        
+        &-links {
+            flex-direction: row;
+            margin-bottom: 10px;
+            margin-left: -120px;
+        }
+        &-link {
+            margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 1em;
+        width: 100%;
+        }
+      }
+}

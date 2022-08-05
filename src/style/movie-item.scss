@@ -1,0 +1,23 @@
+.movie-item {
+  margin: 10px;
+  width: 250px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 50px;
+  justify-items: center;
+  align-items: center;
+  row-gap: 10px;
+
+  .movie-img {
+    max-height: 400px;
+    min-height: 200px;
+    max-width: 200px;
+    position: relative;
+  }
+
+  .movie-info {
+    text-align: center;
+    font-size: 20px;
+    
+  }
+}

@@ -1,0 +1,49 @@
+.app {
+  display: grid;
+  justify-content: center;
+  height: 100%;
+  width: 100vw;
+  background-color: #EBEBEB;
+
+
+
+  .app-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    font-family: 'Roboto Slab', serif;
+    color: #006400;
+
+    & h1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: antiquewhite;
+      position: absolute;
+      transform: translateY(-50%);
+    }
+  }
+ .carrousel-render-movie {
+  width: 1200px;
+
+ }
+  .render-movie {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+    padding: 100px;
+    font-family: 'Oswald', sans-serif;
+  }
+
+    .render-listed-movie {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+
+}
