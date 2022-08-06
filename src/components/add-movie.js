@@ -15,14 +15,14 @@ export default function addMovie() {
     setDescription("")
     console.log("clearing state", img_url, name, price, description)
   };
+  
 
   const postMovie = (event) => {
     axios
       .post(
-        "http://127.0.0.1:5000/add-movie",
+        "https://setv-backend.herokuapp.com/add-movie",
         {
           name: name,
-          author: author,
           price: price,
           description: description,
           img_url: img_url,

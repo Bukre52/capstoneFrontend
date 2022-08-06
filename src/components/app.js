@@ -13,7 +13,7 @@ export default class App extends Component {
 
   componentDidMount() {
     axios
-      .get('http://127.0.0.1:5000/movies')
+      .get('https://setv-backend.herokuapp.com/movies')
       .then((response) => {
         console.log(response)
         this.setState({ movies: response.data })

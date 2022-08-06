@@ -4,7 +4,7 @@ import React from 'react'
 export default function Movie(props) {
   const deleteMovie = () => {
     axios
-      .delete(`http://127.0.0.1:5000/movie/${props.movieData.id}`,{
+      .delete(`https://setv-backend.herokuapp.com//movie/${props.movieData.id}`,{
         headers: { "Access-Control-Allow-Origin": "*" },
       }
 )
